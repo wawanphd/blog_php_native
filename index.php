@@ -1,6 +1,8 @@
 <?php 
 include "header.php";
-    
+   
+
+   //Isi atau Content 
     if(isset($_GET['menu'])){
         if($_GET['menu']==1){
             include "artikel.php";
