@@ -1,4 +1,4 @@
-<h1>Tambah Artikel</h1>
+<h1>Tambah Artikel Berita</h1>
 
 	<form method='POST'>
 		<div class="form-group">
