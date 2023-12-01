@@ -1,4 +1,5 @@
 <?php
+
 $servername = "127.0.0.1";
 $database = "db_blog";
 $username = "new_root";
@@ -11,6 +12,7 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
-echo "Koneksi berhasil";
-mysqli_close($conn);
+//echo "Koneksi berhasil";
+//mysqli_close($conn);
+
 ?>
